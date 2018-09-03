@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bandori Training</string>
+
+    <string name="title_activity_song_list">Song List</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoStreaming"
+    android:orientation="vertical"
+    android:id="@+id/parentLayout">
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/video">
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:visibility="gone"
+        android:id="@+id/menuLayout"
+        android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/vidTools"
+        android:visibility="visible">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_replay10"
+            android:scaleType="fitCenter"
+            android:id="@+id/replay10"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_play"
+            android:scaleType="fitCenter"
+            android:id="@+id/pauseStartToggle"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_forward10"
+            android:scaleType="fitCenter"
+            android:id="@+id/forward10"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_open_in_browser"
+            android:scaleType="fitCenter"
+            android:id="@+id/openInBrowser"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_visibility"
+            android:scaleType="fitCenter"
+            android:id="@+id/invisibilityButton"/>
+    </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

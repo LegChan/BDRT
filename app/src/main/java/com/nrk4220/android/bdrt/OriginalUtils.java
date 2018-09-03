@@ -1,0 +1,81 @@
+package com.nrk4220.android.bdrt;
+
+import java.util.ArrayList;
+
+public class OriginalUtils {
+
+    private ArrayList<SongDetail> songs;
+    public ArrayList<SongDetail> getSong(){
+        songs = new ArrayList<SongDetail>();
+        songs.add(new SongDetail("Tokimeki Experience!", "ときめきエクスペリエンス!", R.drawable.tokimeki,"QHc9tZRc3MM"));
+        songs.add(new SongDetail("1000 Crying Skies", "1000回潤んだ空", R.drawable.tokimeki, "k4k5TLtsYZ4"));
+        songs.add(new SongDetail("Yes! BanG_Dream!", "Yes! BanG_Dream!", R.drawable.ybd,"zo9garh4rZ0"));
+        songs.add(new SongDetail("Poppin' Shuffle", "ぽっぴん’しゃっふる", R.drawable.ybd, "_4alO390--c"));
+        songs.add(new SongDetail("Teardrops", "ティアドロップス", R.drawable.td, "lXERjeqpMrU"));
+        songs.add(new SongDetail("On Your New Journey", "走り始めたばかりのキミに", R.drawable.hhbnk, "Nld89F4umBE"));
+        songs.add(new SongDetail("STAR BEAT!", "STAR BEAT!〜ホシノコドウ〜", R.drawable.sb, "P6EhVz7hm0w"));
+        songs.add(new SongDetail("Summer Skies & SUN! SUN! SEVEN!", "夏空 SUN! SUN! SEVEN!", R.drawable.sb, "BVI0vS5XGX8"));
+        songs.add(new SongDetail("Keep On Moving!", "前へススメ!", R.drawable.mes,"maZsxxaNOcs"));
+        songs.add(new SongDetail("Sunflower Dreams", "夢みるSunflower", R.drawable.mes, "4tF_0YYsEg8"));
+        songs.add(new SongDetail("Your Gift to Me", "キミにもらったもの", R.drawable.mm, "ZUatFOXuPc"));
+        songs.add(new SongDetail("Time Lapse", "Time Lapse", R.drawable.timelapse, "u_dib5Nb4_8"));
+        songs.add(new SongDetail("If In August", "八月のif", R.drawable.if8, "xSGf5stu3Xc"));
+        songs.add(new SongDetail("Boom Through Summer!", "夏のドーン！", R.drawable.natsunodon,"0LGHMTcBnlc"));
+        songs.add(new SongDetail("Christmas no Uta", "クリスマスのうた", R.drawable.christmassong,"kfDxu5tagGo"));
+        songs.add(new SongDetail("B.O.F", "B.O.F", R.drawable.bof,"hxLGv_AFumM"));
+        songs.add(new SongDetail("Happy Happy Party!", "Happy Happy Party!", R.drawable.hhp,"g1iZMqVQvFg"));
+        songs.add(new SongDetail("Sparkling Dreaming ~Sing Girls~", "キラキラだとか夢だとか ～Sing Girls～", R.drawable.sg,"dIYuDRJrsXQ"));
+        songs.add(new SongDetail("CiRCLING", "CiRCLING", R.drawable.cl,"fIHMwY-czGo"));
+        songs.add(new SongDetail("Light Delight", "Light Delight", R.drawable.cl, "Jp2lnS2XGwk"));
+        songs.add(new SongDetail("Double Rainbow", "二重の虹", R.drawable.rainbow, "Tyxjm4Z1kt8"));
+        songs.add(new SongDetail("Saa Ikou!", "最高（さあ行こう）", R.drawable.letsgo, "uHJ2mJexIQ4"));
+        songs.add(new SongDetail("Girl's Code", "ガールズコード", R.drawable.girlcode, "5gj7_HebPEw"));
+        songs.add(new SongDetail("My Heart is a Chocolate Cornet", "私の心はチョココロネ", R.drawable.chocoheart, "qwFcqe1eXb0"));
+        songs.add(new SongDetail("Doki doki SING OUT!", "どきどきSING OUT!", R.drawable.dokidoki, "itWclSPF4wI"));
+        songs.add(new SongDetail("Chocolate Bass Recipe", "チョコレイトの低音レシピ", R.drawable.chocorecipe, "SAP5qRq_uAc"));
+        songs.add(new SongDetail("A Distant Heartbeat", "遠い音楽～ハートビート～", R.drawable.farsong, "yPow-2wPzKg"));
+        songs.add(new SongDetail("Hanazono Electric Guitar!!!", "花園電気ギター！！！", R.drawable.elecguitar,"cTSXQ9H3fB4"));
+        songs.add(new SongDetail("I-I Never Said Love!", "す、好きなんかじゃない！", R.drawable.tsun,"EBM-9uvDQMY"));
+        songs.add(new SongDetail("Don't be afraid", "Don't be afraid", R.drawable.dontafraid,"Np9ENA36nPw"));
+        songs.add(new SongDetail("That Is How I Roll!", "That Is How I Roll!", R.drawable.howiroll, "sTWohUpb0PU"));
+        songs.add(new SongDetail("True color", "True color", R.drawable.truecolor, "IpP-DOfGWxc"));
+        songs.add(new SongDetail("Scarlet Sky", "Scarlet Sky", R.drawable.scarletsky,"ixsdR9k0DC8"));
+        songs.add(new SongDetail("Hey-day Capriccio", "Hey-day Capriccio", R.drawable.heyday, "tek4rILghCc"));
+        songs.add(new SongDetail("Y.O.L.O!!!!!", "Y.O.L.O!!!!!", R.drawable.yolo,"qRCaXeKyxTE"));
+        songs.add(new SongDetail("Jamboree! Journey!", "Jamboree! Journey!", R.drawable.jj, "oeHjm_BmUJo"));
+        songs.add(new SongDetail("COMIC PANIC!!!", "COMIC PANIC!!!", R.drawable.comipa, "w6soPmTj3Dk"));
+        songs.add(new SongDetail("Shuwarin☆Dreaming", "しゅわりん☆どり〜みん", R.drawable.shuwadream,"aYhG84pAFRY"));
+        songs.add(new SongDetail("Hanamaru◎Andante", "はなまる◎アンダンテ", R.drawable.hanamaru,"rEv3JJg6H0E"));
+        songs.add(new SongDetail("Yura-Yura Ring-Dong-Dance", "ゆら・ゆらRing-Dong-Dance", R.drawable.yuradance, "8eKcnh7BmvQ"));
+        songs.add(new SongDetail("SURVIVOR Never Give Up!", "SURVIVOR Never Give Up!", R.drawable.suvivor, "kzkHOCxlAHo"));
+        songs.add(new SongDetail("Wonderland Girl", "Wonderland Girl", R.drawable.wondergirl,"0lDrYuvExgw"));
+        songs.add(new SongDetail("The World Stands As One", "天下トーイツ A to Z☆", R.drawable.tenka, "jNAEE1S6Imk"));
+        songs.add(new SongDetail("Luminous Once Again", "もういちどルミナス", R.drawable.luminous, "hNORzEQ5rUI"));
+        songs.add(new SongDetail("Pasupa Revolutions☆", "パスパレボリューションず☆", R.drawable.pasupare, "YgiofERXhH4"));
+        songs.add(new SongDetail("BLACK SHOUT", "BLACK SHOUT", R.drawable.blackshout, "aXsfGexJiUU"));
+        songs.add(new SongDetail("LOUDER", "LOUDER", R.drawable.louder, "3acBojsBFzA"));
+        songs.add(new SongDetail("Re:Birth Day", "Re:Birth Day", R.drawable.rbd, "W_kPTARtLJw"));
+        songs.add(new SongDetail("Hidamari Rhodonite", "陽だまりロードナイト", R.drawable.hidamari, "N98svIFrRfk"));
+        songs.add(new SongDetail("Passionate Starmine", "熱色スターマイン", R.drawable.starmine, "VMXQBsbm0tM"));
+        songs.add(new SongDetail("－HEROIC ADVENT－", "－HEROIC ADVENT－", R.drawable.heroicadvent, "Q70IGzZmlhA"));
+        songs.add(new SongDetail("ONENESS", "ONENESS", R.drawable.oneness,"UXOPDjuWxug"));
+        songs.add(new SongDetail("Determination Symphony", "Determination Symphony", R.drawable.ds, "UvroMbko64o"));
+        songs.add(new SongDetail("Opera of the wasteland", "Opera of the wasteland", R.drawable.ow, "EDJNewCU58Y"));
+        songs.add(new SongDetail("Kiseki", "軌跡", R.drawable.kiseki,"KvqMGPpDA8M"));
+        songs.add(new SongDetail("Neo-Aspect", "Neo-Aspect", R.drawable.neoaspect, "6foaKdYJTRA"));
+        songs.add(new SongDetail("Legendary", "Legendary", R.drawable.legendary, "pEudAWXcM2Q"));
+        songs.add(new SongDetail("R", "R", R.drawable.r,"6foaKdYJTRA"));
+        songs.add(new SongDetail("Sanctuary", "Sanctuary", R.drawable.sanctuary, "RCQi3xI3QFk"));
+        songs.add(new SongDetail("Orchestra of Smiles!", "えがおのオーケストラっ！", R.drawable.smile, "Tfy6gcgGoK4"));
+        songs.add(new SongDetail("Happiness! Happy Magical♪", "ハピネスっ! ハピィーマジカルっ♪", R.drawable.happy, "lwvklot4-4o"));
+        songs.add(new SongDetail("Goka! Gokai!? Phantom Thief!", "ゴーカ！ごーかい！？ファントムシーフ！", R.drawable.gokagokai, "6iFjB0pA7z0"));
+        songs.add(new SongDetail("Worldwide Treasure!", "せかいのっびのびトレジャー！", R.drawable.treasure, "25JdCEKyAQY"));
+        songs.add(new SongDetail("YAPPY! SCHOOL CARNIVAL☆彡", "YAPPY! SCHOOL CARNIVAL☆彡", R.drawable.yappyschool, "Bi8IUKKn0UM"));
+        songs.add(new SongDetail("Rambunctious Stumbly-Tumbly March", "Wacha-Mocha-Pettan Koushinkyoku", R.drawable.wachamocha,"aPSlO8NwKN4"));
+        songs.add(new SongDetail("Fluffy☆Dream-Color Sandwich", "ふわふわ☆ ゆめいろサンドイッチ", R.drawable.fuwafuwa, "yukOGxH7q3Y"));
+        songs.add(new SongDetail("High Five ∞ Adventure", "ハイファイブ∞あどべんちゃっ", R.drawable.highfive,"J9LXp2qV0Xs"));
+        songs.add(new SongDetail("Quintuple☆Smile", "クインティプル☆すまいる", R.drawable.smile4,"zmyCh_yXTPs"));
+        songs.add(new SongDetail("Picotto! Papitto!! GARUPA☆PICO!!!", "ピコっと！パピっと！！ガルパ☆ピコ！！！", R.drawable.popipapico, "yiU-ODdCDwk"));
+        return songs;
+    }
+}
